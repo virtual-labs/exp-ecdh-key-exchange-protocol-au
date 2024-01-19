@@ -2,38 +2,40 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "question": "How is the secret key (K) calculated for User B in the ECDH Key Exchange Protocol?",
+      "options": [
+        "By adding User B's private key to User A's public key.",
+        "By multiplying User B's private key with a generator point on the elliptic curve (G).",
+        "By subtracting User B's private key from a random number.",
+        "By dividing User B's private key by a prime number (n)."
+      ],
+      "correct_answer": "By multiplying User B's private key with User A's public key.",
+      "explanation": "The secret key for User B is derived by multiplying their private key with User A's public key in the ECDH Key Exchange Protocol.",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "question": "What does the shared secret key (K) represent in the ECDH Key Exchange Protocol?",
+      "options": [
+        "User A's private key.",
+        "User B's private key.",
+        "A randomly generated value.",
+        "A common secret known to both User A and User B."
+      ],
+      "correct_answer": "A common secret known to both User A and User B.",
+      "explanation": "The shared secret key (K) is a common secret known only to User A and User B, ensuring secure communication.",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What role does the generator point (G) play in the ECDH Key Exchange Protocol?",
+      "options": [
+        "It determines the size of the public keys.",
+        "It is used to generate a random number for key derivation.",
+        "It serves as the base point for elliptic curve operations.",
+        "It specifies the prime number (n) used in key calculations."
+      ],
+      "correct_answer": "It serves as the base point for elliptic curve operations.",
+      "explanation": "The generator point (G) serves as the base point for elliptic curve operations in the ECDH Key Exchange Protocol.",
+      "difficulty": "intermediate"
     }
   ]
 }
