@@ -4,10 +4,10 @@
     {
       "question": "How is the secret key (K) calculated for User B in the ECDH Key Exchange Protocol?",
       "answers": {
-        "a. By adding User B's private key to User A's public key.",
-        "b. By multiplying User B's private key with a generator point on the elliptic curve (G).",
-        "c. By subtracting User B's private key from a random number.",
-        "d. By dividing User B's private key by a prime number (n)."
+        "a": "By adding User B's private key to User A's public key.",
+        "b": "By multiplying User B's private key with a generator point on the elliptic curve (G).",
+        "c": "By subtracting User B's private key from a random number.",
+        "d": "By dividing User B's private key by a prime number (n)."
         },
       "explanations": {
         "a": "Incorrect. The secret key for User B is not calculated by adding their private key to User A's public key.",
@@ -21,10 +21,10 @@
     {
       "question": "What does the shared secret key (K) represent in the ECDH Key Exchange Protocol?",
       "answers": {
-        "a. User A's private key.",
-        "b. User B's private key.",
-        "c. A randomly generated value.",
-        "d. A common secret known to both User A and User B."
+        "a": "User A's private key.",
+        "b": "User B's private key.",
+        "c": "A randomly generated value.",
+        "d": "A common secret known to both User A and User B."
       },
       "explanations": {
         "a": "Incorrect. The shared secret key (K) does not represent User A's private key.",
@@ -38,10 +38,10 @@
     {
       "question": "What role does the generator point (G) play in the ECDH Key Exchange Protocol?",
       "answers": {
-        "a. It determines the size of the public keys.",
-        "b. It is used to generate a random number for key derivation.",
-        "c. It serves as the base point for elliptic curve operations.",
-        "d. It specifies the prime number (n) used in key calculations."
+        "a": "It determines the size of the public keys.",
+        "b": "It is used to generate a random number for key derivation.",
+        "c": "It serves as the base point for elliptic curve operations.",
+        "d": "It specifies the prime number (n) used in key calculations."
       },
       "explanations": {
         "a": "Incorrect. The generator point (G) does not determine the size of the public keys.",
