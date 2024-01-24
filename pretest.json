@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the purpose of the Elliptic-curve Diffie–Hellman (ECDH) Key Exchange Protocol?",
+      "answers": {
+        "a": "To encrypt data during transmission.",
+        "b": "To establish a shared secret key between two parties over an insecure communication channel.",
+        "c": "To authenticate users in a network.",
+        "d": "To compress data before transmission."
+      },
+      "explanations": {
+        "a": "Incorrect. The primary purpose of ECDH is to establish a shared secret key, not to directly encrypt data during transmission.",
+        "b": "Correct. The ECDH Key Exchange Protocol is designed to establish a shared secret key securely between two parties over an insecure communication channel.",
+        "c": "Incorrect. ECDH is focused on key exchange rather than user authentication.",
+        "d": "Incorrect. ECDH is not designed for data compression."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How is User A's public key calculated in the ECDH Key Exchange Protocol?",
+      "answers": {
+        "a": "By adding User A's private key to a fixed constant.",
+        "b": "By multiplying User A's private key with a generator point on the elliptic curve (G).",
+        "c": "By subtracting User A's private key from a random number.",
+        "d": "By dividing User A's private key by a prime number (n)."
+      },
+      "explanations": {
+        "a": "Incorrect. User A's public key is calculated through multiplication, not addition.",
+        "b": "Correct. User A's public key is computed by multiplying their private key with a generator point on the elliptic curve, denoted as G.",
+        "c": "Incorrect. User A's public key is calculated through multiplication, not subtraction.",
+        "d": "Incorrect. User A's public key is calculated through multiplication, not division."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is it important for the private keys (nA and nB) to be chosen such that (nA < n) and (nB < n) in ECDH Key Exchange?",
+      "answers": {
+        "a": "To speed up the key exchange process.",
+        "b": "To ensure that the public keys are small and easy to compute.",
+        "c": "To prevent potential vulnerabilities and ensure security.",
+        "d": "To reduce the computational load on the elliptic curve generator."
+      },
+      "explanations": {
+        "a": "Incorrect. The size of private keys does not directly impact the speed of the key exchange process.",
+        "b": "Incorrect. The size of public keys is influenced by the choice of elliptic curve parameters, not the private key values.",
+        "c": "Correct. Choosing private keys within specific ranges helps prevent vulnerabilities and ensures the security of the key exchange process.",
+        "d": "Incorrect. The private key range does not significantly affect the computational load on the elliptic curve generator."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}

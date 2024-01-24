@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/exp-ecdh-key-exchange-protocol-au/simulation/static/css/main.0c17ee5a.css",
+    "main.js": "/exp-ecdh-key-exchange-protocol-au/simulation/static/js/main.2f81bd97.js",
+    "static/js/787.16bb0c50.chunk.js": "/exp-ecdh-key-exchange-protocol-au/simulation/static/js/787.16bb0c50.chunk.js",
+    "index.html": "/exp-ecdh-key-exchange-protocol-au/simulation/index.html",
+    "main.0c17ee5a.css.map": "/exp-ecdh-key-exchange-protocol-au/simulation/static/css/main.0c17ee5a.css.map",
+    "main.2f81bd97.js.map": "/exp-ecdh-key-exchange-protocol-au/simulation/static/js/main.2f81bd97.js.map",
+    "787.16bb0c50.chunk.js.map": "/exp-ecdh-key-exchange-protocol-au/simulation/static/js/787.16bb0c50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c17ee5a.css",
+    "static/js/main.2f81bd97.js"
+  ]
+}

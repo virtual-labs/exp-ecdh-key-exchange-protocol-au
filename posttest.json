@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How is the secret key (K) calculated for User B in the ECDH Key Exchange Protocol?",
+      "answers": {
+        "a": "By adding User B's private key to User A's public key.",
+        "b": "By multiplying User B's private key with a generator point on the elliptic curve (G).",
+        "c": "By subtracting User B's private key from a random number.",
+        "d": "By dividing User B's private key by a prime number (n)."
+        },
+      "explanations": {
+        "a": "Incorrect. The secret key for User B is not calculated by adding their private key to User A's public key.",
+        "b": "Correct. The secret key for User B is derived by multiplying their private key with User A's public key in the ECDH Key Exchange Protocol.",
+        "c": "Incorrect. Subtracting User B's private key from a random number is not the correct method for calculating the secret key.",
+        "d": "Incorrect. Dividing User B's private key by a prime number (n) is not the correct method for calculating the secret key."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What does the shared secret key (K) represent in the ECDH Key Exchange Protocol?",
+      "answers": {
+        "a": "User A's private key.",
+        "b": "User B's private key.",
+        "c": "A randomly generated value.",
+        "d": "A common secret known to both User A and User B."
+      },
+      "explanations": {
+        "a": "Incorrect. The shared secret key (K) does not represent User A's private key.",
+        "b": "Incorrect. The shared secret key (K) does not represent User B's private key.",
+        "c": "Incorrect. The shared secret key (K) is not a randomly generated value.",
+        "d": "Correct. The shared secret key (K) is a common secret known only to User A and User B, ensuring secure communication."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What role does the generator point (G) play in the ECDH Key Exchange Protocol?",
+      "answers": {
+        "a": "It determines the size of the public keys.",
+        "b": "It is used to generate a random number for key derivation.",
+        "c": "It serves as the base point for elliptic curve operations.",
+        "d": "It specifies the prime number (n) used in key calculations."
+      },
+      "explanations": {
+        "a": "Incorrect. The generator point (G) does not determine the size of the public keys.",
+        "b": "Incorrect. The generator point (G) is not used to generate a random number for key derivation.",
+        "c": "Correct. The generator point (G) serves as the base point for elliptic curve operations in the ECDH Key Exchange Protocol.",
+        "d": "Incorrect. The generator point (G) does not specify the prime number (n) used in key calculations."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}
